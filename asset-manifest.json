@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ivan-cardenas-web/static/css/main.4bf2e103.css",
+    "main.js": "/ivan-cardenas-web/static/js/main.f9d9870f.js",
+    "static/js/787.6ddd270f.chunk.js": "/ivan-cardenas-web/static/js/787.6ddd270f.chunk.js",
+    "static/media/proyecto3.3.jpg": "/ivan-cardenas-web/static/media/proyecto3.3.bdb9fe2654f66939339b.jpg",
+    "static/media/foto-perfil.png": "/ivan-cardenas-web/static/media/foto-perfil.e0894a1fe240d233f453.png",
+    "static/media/proyecto3.4.jpg": "/ivan-cardenas-web/static/media/proyecto3.4.7ae6d3e79cadaa7f2c74.jpg",
+    "static/media/proyecto3.jpg": "/ivan-cardenas-web/static/media/proyecto3.c1070a1000adc32d0683.jpg",
+    "static/media/proyecto2.jpg": "/ivan-cardenas-web/static/media/proyecto2.825e77f81e410f70c26c.jpg",
+    "static/media/proyecto3.12.jpg": "/ivan-cardenas-web/static/media/proyecto3.12.5947d42a553294411dbc.jpg",
+    "static/media/proyecto3.2.jpg": "/ivan-cardenas-web/static/media/proyecto3.2.a94c60d4d8ed16930b56.jpg",
+    "static/media/proyecto1.jpg": "/ivan-cardenas-web/static/media/proyecto1.114212db87b9d4183765.jpg",
+    "static/media/linux-icon.svg": "/ivan-cardenas-web/static/media/linux-icon.4b5d2344302b64b02734af5932d8d77c.svg",
+    "static/media/sass-icon.svg": "/ivan-cardenas-web/static/media/sass-icon.395061d80ee47cf066c05fa26a6eb268.svg",
+    "static/media/mysql-icon.svg": "/ivan-cardenas-web/static/media/mysql-icon.97551385497322c6d216d2b2b502ae60.svg",
+    "static/media/trama.svg": "/ivan-cardenas-web/static/media/trama.a9e00bfb2e3b9252d4c3.svg",
+    "static/media/react-icon.svg": "/ivan-cardenas-web/static/media/react-icon.c284d4d40dbf6f61d9e259324200f237.svg",
+    "static/media/java-icon.svg": "/ivan-cardenas-web/static/media/java-icon.e768c3676460f115c3aea182f091285a.svg",
+    "static/media/logo.svg": "/ivan-cardenas-web/static/media/logo.7661f37a0d67cdd8e970.svg",
+    "static/media/adobe-xd-icon.svg": "/ivan-cardenas-web/static/media/adobe-xd-icon.dc849f52bbc12beaf8f46b0a0f0f7993.svg",
+    "static/media/html-icon.svg": "/ivan-cardenas-web/static/media/html-icon.d7e3ba2824f1d5ca401fb1d267648f70.svg",
+    "static/media/javascript-icon.svg": "/ivan-cardenas-web/static/media/javascript-icon.7afe9a0b49a571038a06342c1aad38a3.svg",
+    "index.html": "/ivan-cardenas-web/index.html",
+    "static/media/css-icon.svg": "/ivan-cardenas-web/static/media/css-icon.75f504e0b93eec4f96ffe91ccc0a15b3.svg",
+    "main.4bf2e103.css.map": "/ivan-cardenas-web/static/css/main.4bf2e103.css.map",
+    "main.f9d9870f.js.map": "/ivan-cardenas-web/static/js/main.f9d9870f.js.map",
+    "787.6ddd270f.chunk.js.map": "/ivan-cardenas-web/static/js/787.6ddd270f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bf2e103.css",
+    "static/js/main.f9d9870f.js"
+  ]
+}
