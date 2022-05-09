@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/ivan-cardenas-web/static/css/main.dcd2b945.css",
-    "main.js": "/ivan-cardenas-web/static/js/main.31348731.js",
-    "static/js/787.6ddd270f.chunk.js": "/ivan-cardenas-web/static/js/787.6ddd270f.chunk.js",
+    "main.css": "/ivan-cardenas-web/static/css/main.83e7399d.css",
+    "main.js": "/ivan-cardenas-web/static/js/main.babb20b1.js",
     "static/media/proyecto3.3.jpg": "/ivan-cardenas-web/static/media/proyecto3.3.bdb9fe2654f66939339b.jpg",
     "static/media/foto-perfil.png": "/ivan-cardenas-web/static/media/foto-perfil.e0894a1fe240d233f453.png",
     "static/media/proyecto3.4.jpg": "/ivan-cardenas-web/static/media/proyecto3.4.7ae6d3e79cadaa7f2c74.jpg",
@@ -23,12 +22,11 @@
     "static/media/javascript-icon.svg": "/ivan-cardenas-web/static/media/javascript-icon.7afe9a0b49a571038a06342c1aad38a3.svg",
     "index.html": "/ivan-cardenas-web/index.html",
     "static/media/css-icon.svg": "/ivan-cardenas-web/static/media/css-icon.75f504e0b93eec4f96ffe91ccc0a15b3.svg",
-    "main.dcd2b945.css.map": "/ivan-cardenas-web/static/css/main.dcd2b945.css.map",
-    "main.31348731.js.map": "/ivan-cardenas-web/static/js/main.31348731.js.map",
-    "787.6ddd270f.chunk.js.map": "/ivan-cardenas-web/static/js/787.6ddd270f.chunk.js.map"
+    "main.83e7399d.css.map": "/ivan-cardenas-web/static/css/main.83e7399d.css.map",
+    "main.babb20b1.js.map": "/ivan-cardenas-web/static/js/main.babb20b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcd2b945.css",
-    "static/js/main.31348731.js"
+    "static/css/main.83e7399d.css",
+    "static/js/main.babb20b1.js"
   ]
 }
