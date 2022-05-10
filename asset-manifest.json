@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ivan-cardenas-web/static/css/main.83e7399d.css",
+    "main.css": "/ivan-cardenas-web/static/css/main.c328bedf.css",
     "main.js": "/ivan-cardenas-web/static/js/main.b790bf5c.js",
     "static/media/proyecto3.3.jpg": "/ivan-cardenas-web/static/media/proyecto3.3.bdb9fe2654f66939339b.jpg",
     "static/media/foto-perfil.png": "/ivan-cardenas-web/static/media/foto-perfil.e0894a1fe240d233f453.png",
@@ -22,11 +22,11 @@
     "static/media/javascript-icon.svg": "/ivan-cardenas-web/static/media/javascript-icon.7afe9a0b49a571038a06342c1aad38a3.svg",
     "index.html": "/ivan-cardenas-web/index.html",
     "static/media/css-icon.svg": "/ivan-cardenas-web/static/media/css-icon.75f504e0b93eec4f96ffe91ccc0a15b3.svg",
-    "main.83e7399d.css.map": "/ivan-cardenas-web/static/css/main.83e7399d.css.map",
+    "main.c328bedf.css.map": "/ivan-cardenas-web/static/css/main.c328bedf.css.map",
     "main.b790bf5c.js.map": "/ivan-cardenas-web/static/js/main.b790bf5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.83e7399d.css",
+    "static/css/main.c328bedf.css",
     "static/js/main.b790bf5c.js"
   ]
 }
