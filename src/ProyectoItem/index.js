@@ -7,10 +7,23 @@ export default function ProyectoItem({ setModal, image }) {
         <React.Fragment>
             <div
                 className='cuadro'
-                style={{ backgroundImage: `url(${image})` }}>
+                style={{
+                    backgroundImage: `url(${image})`,
+                    width: '95%',
+                    height: '50%',
+                    borderRadius: '5px',
+                    border: '4px solid #707070',
+                    backgroundSize: 'contain',
+                    filter: 'saturate(0.5)',
+                    transition: 'all 300ms',
+                }}>
                 <button
                     onClick={() => setModal(true)}
-                    style={{ marginTop: '230px', zIndex: '10' }}>
+                    style={{
+                        marginTop: '230px',
+                        zIndex: '10',
+                        marginLeft: '120px',
+                    }}>
                     VER
                 </button>
             </div>
