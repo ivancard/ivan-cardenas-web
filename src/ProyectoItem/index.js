@@ -14,7 +14,7 @@ export default function ProyectoItem({ setModal, image }) {
                     borderRadius: '5px',
                     border: '4px solid #707070',
                     backgroundSize: 'contain',
-                    filter: 'saturate(0.5)',
+                    filter: 'saturate(0.4)',
                     transition: 'all 300ms',
                 }}>
                 <button
