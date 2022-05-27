@@ -13,7 +13,7 @@ export default function ProyectoItem({ setModal, image }) {
                     height: '50%',
                     borderRadius: '5px',
                     border: '4px solid #707070',
-                    backgroundSize: 'contain',
+                    backgroundSize: 'auto',
                     filter: 'saturate(0.4)',
                     transition: 'all 300ms',
                 }}>

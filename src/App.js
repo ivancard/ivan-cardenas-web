@@ -18,56 +18,65 @@ import imagenProyecto3_2 from './img/proyecto3.12.jpg';
 import imagenProyecto3_3 from './img/proyecto3.2.jpg';
 import imagenProyecto3_4 from './img/proyecto3.3.jpg';
 import imagenProyecto3_5 from './img/proyecto3.4.jpg';
+import imagenProyecto4 from './img/proyecto4.jpg';
+import imagenProyecto5 from './img/proyecto5.jpg';
+import imagenProyecto6 from './img/proyecto6.jpg';
 function App() {
     const [modal, setModal] = useState(false);
     const [modal2, setModal2] = useState(false);
     const [modal3, setModal3] = useState(false);
+    const [modal4, setModal4] = useState(false);
+    const [modal5, setModal5] = useState(false);
+    const [modal6, setModal6] = useState(false);
     return (
-        <div className="App">
+        <div className='App'>
             <nav>
-                <Logo className="nav-logo" />
-                <ul className="nav-list">
+                <Logo className='nav-logo' />
+                <ul className='nav-list'>
                     <li>
-                        <a href="#header">
-                            <Button name="INICIO" />
+                        <a href='#header'>
+                            <Button name='INICIO' />
                         </a>
                     </li>
                     <li>
-                        <a href="#sobre">
-                            <Button name="SOBRE MI" />
+                        <a href='#sobre'>
+                            <Button name='SOBRE MI' />
                         </a>
                     </li>
                     <li>
-                        <a href="#proyects">
-                            <Button name="MIS PROYECTOS" />
+                        <a href='#proyects'>
+                            <Button name='MIS PROYECTOS' />
                         </a>
                     </li>
                     <li>
-                        <a href="#contact">
-                            <Button name="CONTACTO" />
+                        <a href='#contact'>
+                            <Button name='CONTACTO' />
                         </a>
                     </li>
                 </ul>
             </nav>
-            <header className="app-header" id="header">
+            <header className='app-header' id='header'>
                 <Hero
-                    windowW="98%"
-                    h4="Hola, mi nombre es"
-                    h1="Ivan Cardenas"
-                    h6="Desarrollador de Software"
+                    windowW='98%'
+                    h4='Hola, mi nombre es'
+                    h1='Ivan Cardenas'
+                    h6='Desarrollador de Software'
                     ph={true}
                     fColumn={false}
                 />
             </header>
-            <span id="sobre"></span>
+            <span id='sobre'></span>
             <AboutMe />
-            <span id="proyects"></span>
+            <span id='proyects'></span>
             <Proyectos
                 setModal={setModal}
                 setModal2={setModal2}
                 setModal3={setModal3}
+                setModal4={setModal4}
+                setModal5={setModal5}
+                setModal6={setModal6}
             />
-            <span id="contact"></span>
+            <span id='contact'></span>
             <Contacto />
             <div>
                 <Modal estado={modal} cambiarEstado={setModal} scroll={false}>
@@ -83,9 +92,8 @@ function App() {
                         <p>
                             Repositorio
                             <a
-                                href="https://github.com/ivancard/todo-react"
-                                target="_blanck"
-                            >
+                                href='https://github.com/ivancard/todo-react'
+                                target='_blanck'>
                                 <b
                                     style={{
                                         backgroundColor: '#707070',
@@ -93,16 +101,14 @@ function App() {
                                         padding: '2px 5px',
                                         borderRadius: '5px',
                                         marginLeft: '10px',
-                                    }}
-                                >
+                                    }}>
                                     aquí
                                 </b>
                             </a>
                         </p>
                         <a
-                            href="https://ivancard.github.io/todo-react/"
-                            target="_blank"
-                        >
+                            href='https://ivancard.github.io/todo-react/'
+                            target='_blank'>
                             <button>Probala aquí</button>
                         </a>
                     </Contenido>
@@ -124,9 +130,8 @@ function App() {
                         <p>
                             Repositorio
                             <a
-                                href="https://github.com/ivancard/administrador-citas"
-                                target="_blanck"
-                            >
+                                href='https://github.com/ivancard/administrador-citas'
+                                target='_blanck'>
                                 <b
                                     style={{
                                         backgroundColor: '#707070',
@@ -134,16 +139,14 @@ function App() {
                                         padding: '2px 5px',
                                         borderRadius: '5px',
                                         marginLeft: '10px',
-                                    }}
-                                >
+                                    }}>
                                     aquí
                                 </b>
                             </a>
                         </p>
                         <a
-                            href="https://ivancard.github.io/administrador-citas/"
-                            target="_blank"
-                        >
+                            href='https://ivancard.github.io/administrador-citas/'
+                            target='_blank'>
                             <button>Probala aquí</button>
                         </a>
                     </Contenido>
@@ -178,9 +181,8 @@ function App() {
                         <p>
                             Video de demostración y explicación
                             <a
-                                href="https://youtu.be/qihevLQWSZk"
-                                target="_blanck"
-                            >
+                                href='https://youtu.be/qihevLQWSZk'
+                                target='_blanck'>
                                 <b
                                     style={{
                                         backgroundColor: '#707070',
@@ -188,8 +190,7 @@ function App() {
                                         padding: '2px 5px',
                                         borderRadius: '5px',
                                         marginLeft: '10px',
-                                    }}
-                                >
+                                    }}>
                                     aquí
                                 </b>
                             </a>
@@ -197,9 +198,8 @@ function App() {
                         <p>
                             Repositorio
                             <a
-                                href="https://github.com/ivancard/AgenciaTurismoTPOFinal"
-                                target="_blanck"
-                            >
+                                href='https://github.com/ivancard/AgenciaTurismoTPOFinal'
+                                target='_blanck'>
                                 <b
                                     style={{
                                         backgroundColor: '#707070',
@@ -207,12 +207,110 @@ function App() {
                                         padding: '2px 5px',
                                         borderRadius: '5px',
                                         marginLeft: '10px',
-                                    }}
-                                >
+                                    }}>
                                     aquí
                                 </b>
                             </a>
                         </p>
+                    </Contenido>
+                </Modal>
+                <Modal estado={modal4} cambiarEstado={setModal4} scroll={false}>
+                    <Contenido>
+                        <h1>Gif App</h1>
+                        <p>
+                            Web app desarrollada en React que busca gifs atraves
+                            de una API de Giphy
+                        </p>
+                        <img src={imagenProyecto4} />
+                        <p>
+                            Repositorio
+                            <a
+                                href='https://github.com/ivancard/gifexpert'
+                                target='_blanck'>
+                                <b
+                                    style={{
+                                        backgroundColor: '#707070',
+                                        color: 'white',
+                                        padding: '2px 5px',
+                                        borderRadius: '5px',
+                                        marginLeft: '10px',
+                                    }}>
+                                    aquí
+                                </b>
+                            </a>
+                        </p>
+                        <a
+                            href='https://ivancard.github.io/gifexpert/'
+                            target='_blank'>
+                            <button>Probala aquí</button>
+                        </a>
+                    </Contenido>
+                </Modal>
+                <Modal estado={modal5} cambiarEstado={setModal5} scroll={false}>
+                    <Contenido>
+                        <h1>Heroes App</h1>
+                        <p>
+                            App desarrollada en React, usando datos desde un
+                            achivo de javascript. La app lista los heroes de la
+                            base de datos local y permite buscarlos por nombre.
+                            Se usó React rooter para el manejo de las rutas y
+                            bootstrap para el diseño.
+                        </p>
+                        <img src={imagenProyecto5} />
+                        <p>
+                            Repositorio
+                            <a
+                                href='https://github.com/ivancard/heroes-app'
+                                target='_blanck'>
+                                <b
+                                    style={{
+                                        backgroundColor: '#707070',
+                                        color: 'white',
+                                        padding: '2px 5px',
+                                        borderRadius: '5px',
+                                        marginLeft: '10px',
+                                    }}>
+                                    aquí
+                                </b>
+                            </a>
+                        </p>
+                        <a
+                            href='https://heroes-app-inky.vercel.app/'
+                            target='_blank'>
+                            <button>Probala aquí</button>
+                        </a>
+                    </Contenido>
+                </Modal>
+                <Modal estado={modal6} cambiarEstado={setModal6} scroll={false}>
+                    <Contenido>
+                        <h1>Pagina web</h1>
+                        <p>
+                            Pagina web desarrollada en React, para fabrica
+                            fundidora de aluminio.
+                        </p>
+                        <img src={imagenProyecto6} />
+                        <p>
+                            Repositorio
+                            <a
+                                href='https://github.com/ivancard/fundiciongarcia'
+                                target='_blanck'>
+                                <b
+                                    style={{
+                                        backgroundColor: '#707070',
+                                        color: 'white',
+                                        padding: '2px 5px',
+                                        borderRadius: '5px',
+                                        marginLeft: '10px',
+                                    }}>
+                                    aquí
+                                </b>
+                            </a>
+                        </p>
+                        <a
+                            href='https://fundiciongarcia.vercel.app/'
+                            target='_blank'>
+                            <button>Probala aquí</button>
+                        </a>
                     </Contenido>
                 </Modal>
             </div>
